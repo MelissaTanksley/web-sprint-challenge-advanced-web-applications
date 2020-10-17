@@ -1,6 +1,9 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
+import React, {} from 'react'
+import ReactDOM from 'react-dom'
+//import App from './App'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+//const [user, setUser, initialForm] = useState();
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<index />, rootElement);
